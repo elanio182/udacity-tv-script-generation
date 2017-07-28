@@ -2,7 +2,7 @@
 
 ## Project 3: TV Script Generation
 
-In this project, you'll generate your own Simpsons TV scripts using RNNs. You'll be using part of the Simpsons dataset of scripts from 27 seasons. The Neural Network you'll build will generate a new TV script for a scene at Moe's Tavern.
+In this project, i'll generate your own Simpsons TV scripts using RNNs. I'll be using part of the Simpsons dataset of scripts from 27 seasons. The Neural Network you'll build will generate a new TV script for a scene at Moe's Tavern.
 
 ## Running using conda!
 
@@ -23,7 +23,7 @@ source activate tv-script-generation
 **Step 3:** Install dependencies
 
 ```terminal
-conda install -c conda-forge tensorflow=1.0.0
+conda install -c conda-forge tensorflow=1.2.0
 conda install numpy jupyter notebook
 ```
 
@@ -45,4 +45,4 @@ This folder contains files for Udacity Deep Laerning Foundations Nanodegree Proj
 
 **helper.py** - Help functions provided by Udacity.
 
-**data/simpsons/moes_tavern_lines.txt** - Some lines from a chapter of "The Simpsons" that will be used as input for the generation of a new scipt..
+**data/simpsons/moes_tavern_lines.txt** - Some lines from a chapter of "The Simpsons" that will be used as input for the generation of a new scipt.
